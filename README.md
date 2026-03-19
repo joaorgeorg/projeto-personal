@@ -1,5 +1,6 @@
 🚀 Projeto Personal
-Este é um projeto de desenvolvimento frontend focado na criação de uma interface moderna e funcional. O objetivo principal foi aplicar conceitos de estruturação semântica, estilização avançada e interatividade com JavaScript.
+
+Este é um projeto de desenvolvimento Front-End focado na criação de uma interface moderna e funcional. O objetivo principal foi aplicar conceitos de estruturação semântica, estilização avançada e interatividade com JavaScript.
 
 🛠️ Tecnologias Utilizadas
 HTML5: Estruturação semântica do conteúdo.
