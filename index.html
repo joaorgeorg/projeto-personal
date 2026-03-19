@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinador João Georg</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Arquivo CSS Externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <a href="#" class="logo">Treinador <span>João Georg</span></a>
+            
+            <!-- Menu Button (Mobile) -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Menu Links -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio" class="nav-item">Início</a></li>
+                <li><a href="#sobre" class="nav-item">Sobre Mim</a></li>
+                <li><a href="#servicos" class="nav-item">Serviços</a></li>
+                <li><a href="#alunos" class="nav-item">Alunos</a></li>
+                <li><a href="#testemunhos" class="nav-item">Resultados</a></li>
+                <li><a href="#contato" class="btn nav-cta nav-item">Começar Agora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container hero-content">
+            <span class="badge">Transforme o seu corpo</span>
+            <h1>Ultrapasse os <br/><span class="text-gradient">Seus Limites</span></h1>
+            <p>Não existem atalhos, apenas trabalho duro. Alcance a sua melhor forma física com um acompanhamento profissional, personalizado e focado nos seus objetivos reais.</p>
+            
+            <div class="hero-btns">
+                <a href="#servicos" class="btn btn-primary">
+                    Ver Planos <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contato" class="btn btn-outline">
+                    Avaliação Gratuita
+                </a>
+            </div>
+        </div>
+        
+        <a href="#sobre" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section class="section bg-dark" id="sobre">
+        <div class="container about-grid">
+            <div class="about-image-wrapper">
+                <img src="./assets/personal.jpg" alt="[Imagem do Treinador Pessoal no ginásio]" class="about-image">
+                <div class="experience-badge">
+                    <div class="icon"><i class="fas fa-award"></i></div>
+                    <div>
+                        <h4>15+ Anos</h4>
+                        <p>De Experiência</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-text">
+                <span class="section-subtitle">Sobre o Treinador</span>
+                <h3>A disciplina é a ponte entre os seus objetivos e a <span class="text-primary">realização</span>.</h3>
+                <p class="text-main">Olá, sou o João Georg. Com mais de uma década dedicada ao esporte e à preparação física de alto rendimento, a minha missão é transformar a sua mentalidade e o seu corpo.</p>
+                <p class="text-muted" style="margin-bottom: 1.5rem;">Acredito que cada corpo é único e necessita de uma abordagem específica. Não vendo fórmulas mágicas; ofereço ciência, técnica rigorosa, planejamento estratégico e, acima de tudo, o compromisso de estar ao seu lado em cada repetição.</p>
+                
+                <ul class="features-list">
+                    <li><i class="fas fa-check-circle"></i> Licenciatura e Bacharelado em Educação Física</li>
+                    <li><i class="fas fa-check-circle"></i> Nutrição Esportiva</li>
+                    <li><i class="fas fa-check-circle"></i> Treino de Força, Hipertrofia e Emagrecimento</li>
+                    <li><i class="fas fa-check-circle"></i> Fisiologia do Exercício e Prevenção e Reabilitação de Lesões
+                    </li>
+                </ul>
+
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Signature_of_Alexandre_Dumas.svg" alt="[Assinatura]" class="signature">
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section bg-darker" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Os Meus Serviços</span>
+                <h3>Programas de Treino</h3>
+                <p class="text-muted">Escolha o plano que melhor se adapta à sua rotina e aos seus objetivos. Resultados garantidos através de metodologia comprovada.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Serviço 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h4>Treino Presencial (1-a-1)</h4>
+                    <p class="text-muted">Acompanhamento presencial exclusivo. Correção postural ao detalhe e adaptação imediata do treino.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-chevron-right"></i> Sessões de 60 minutos</li>
+                        <li><i class="fas fa-chevron-right"></i> Avaliação física mensal</li>
+                        <li><i class="fas fa-chevron-right"></i> Acesso via WhatsApp</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+                </div>
+
+                <!-- Serviço 2 (Destaque) -->
+                <div class="service-card featured">
+                    <div class="featured-badge">Mais Popular</div>
+                    <div class="service-icon"><i class="fas fa-laptop-medical"></i></div>
+                    <h4>Consultoria Online</h4>
+                    <p class="text-muted">Treine onde e quando quiser com um planejamento estruturado para você. Acesso a app com vídeos.</p>
+                    <ul class="service-list text-main">
+                        <li><i class="fas fa-chevron-right"></i> Plano de treino personalizado</li>
+                        <li><i class="fas fa-chevron-right"></i> App com vídeos de exercícios</li>
+                        <li><i class="fas fa-chevron-right"></i> Check-in e ajustes semanais</li>
+                        <li><i class="fas fa-chevron-right"></i> Análise de técnica em vídeo</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary">Começar Agora</a>
+                </div>
+
+                <!-- Serviço 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-apple-alt"></i></div>
+                    <h4>Guia Nutricional</h4>
+                    <p class="text-muted">Um plano alimentar flexível, desenhado para os seus gostos, focando na performance e estética corporal.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-chevron-right"></i> Cálculo de Macronutrientes</li>
+                        <li><i class="fas fa-chevron-right"></i> Sugestões de refeições</li>
+                        <li><i class="fas fa-chevron-right"></i> Lista de compras inteligente</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-outline">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container cta-content">
+            <h2>Pronto para dar o primeiro passo?</h2>
+            <p>Junte-se à equipe e comece hoje a construir a versão mais forte de você mesmo.</p>
+            <a href="#contato" class="btn btn-cta-light">Agendar Avaliação Gratuita</a>
+        </div>
+    </section>
+
+    <!-- Resultados dos Alunos -->
+    <section class="section bg-darker" id="alunos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Transformações</span>
+                <h3>Alguns resultados dos meus alunos</h3>
+                <p class="text-muted">Veja o antes e depois de quem já decidiu mudar de vida com o meu acompanhamento.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./assets/resultado1.jpg" alt="Antes e Depois aluno 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="./assets/resultado3.jpg" alt="Antes e Depois aluno 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="./assets/resultado2.jpg" alt="Antes e Depois aluno 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testemunhos -->
+    <section class="section bg-dark" id="testemunhos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Casos de Sucesso</span>
+                <h3>Resultados Reais</h3>
+                <p class="text-muted">Não acredite apenas na minha palavra. Veja o que aqueles que já iniciaram esta jornada têm a dizer.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"Nunca pensei conseguir levantar os pesos que levanto hoje. A abordagem mudou a minha visão. Perdi 15kg e ganhei uma confiança enorme."</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="[Cliente]" class="client-img">
+                        <div>
+                            <h5>Aessandro Medeiros</h5>
+                            <span>Consultoria Online</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"Profissionalismo de excelência. Tinha dores na lombar que desapareceram completamente após dois meses de treino focado em postura."</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="[Cliente]" class="client-img">
+                        <div>
+                            <h5>Mariana Costa</h5>
+                            <span>Treino Presencial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="testimonial-text">"O plano nutricional aliado aos treinos intensos transformou a minha composição corporal para o verão. A app é super intuitiva!"</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="[Cliente]" class="client-img">
+                        <div>
+                            <h5>Ricardo Santos</h5>
+                            <span>Pack Completo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section bg-darker" id="contato">
+        <div class="container contact-wrap">
+            <!-- Informações -->
+            <div class="contact-info">
+                <span class="section-subtitle">Contato</span>
+                <h3>Vamos Trabalhar <br>Juntos</h3>
+                <p class="text-muted" style="margin-bottom: 2rem;">Preencha o formulário para agendarmos uma chamada de avaliação sem compromisso, ou entre em contato diretamente.</p>
+                
+                <div class="info-item">
+                    <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div>
+                        <h5>Telefone / WhatsApp</h5>
+                        <p>(53) 999-99-00-22</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="far fa-envelope"></i></div>
+                    <div>
+                        <h5>E-mail</h5>
+                        <p>contato@joaogeorg.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <h5>Localização</h5>
+                        <p>Pelotas, Rio Grande do Sul - Brasil</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h5>Acompanhe o processo</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulário -->
+            <div class="contact-form">
+                <form onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso! (Demonstração)');">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Seu Nome</label>
+                            <input type="text" id="nome" class="form-control" placeholder="João Georg" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Seu E-mail</label>
+                            <input type="email" id="email" class="form-control" placeholder="joao@email.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="objetivo">Objetivo Principal</label>
+                        <select id="objetivo" class="form-control">
+                            <option value="">Selecione um objetivo...</option>
+                            <option value="perda_peso">Perda de Peso / Definição</option>
+                            <option value="hipertrofia">Ganho de Massa Muscular</option>
+                            <option value="condicionamento">Condicionamento Físico Geral</option>
+                            <option value="reabilitacao">Recuperação / Reabilitação</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem (Opcional)</label>
+                        <textarea id="mensagem" class="form-control" placeholder="Conte-me um pouco sobre a sua rotina..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">Enviar Pedido de Contato</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="logo">Treinador <span>João Georg</span></div>
+            <p class="text-muted" style="font-size: 0.875rem;">&copy; 2026 Treinador João Georg. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#" class="text-muted">Termos</a>
+                <a href="#" class="text-muted">Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Arquivo JavaScript Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
