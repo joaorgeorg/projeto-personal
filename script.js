@@ -38,3 +38,30 @@ navItems.forEach(item => {
         }
     });
 });
+
+// Envia os dados do formulário de contato para o WhatsApp
+const contactForm = document.getElementById('contact-form');
+
+contactForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const name = document.getElementById('nome').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const objectiveSelect = document.getElementById('objetivo');
+    const objective = objectiveSelect.value
+        ? objectiveSelect.options[objectiveSelect.selectedIndex].text
+        : 'N\u00e3o informado';
+    const message = document.getElementById('mensagem').value.trim() || 'N\u00e3o informada';
+
+    const whatsappMessage = [
+        'Ol\u00e1! Gostaria de solicitar mais informa\u00e7\u00f5es sobre seus servi\u00e7os de personal trainer.',
+        '',
+        `*Nome:* ${name}`,
+        `*E-mail:* ${email}`,
+        `*Objetivo principal:* ${objective}`,
+        `*Mensagem:* ${message}`
+    ].join('\n');
+
+    const whatsappUrl = `https://wa.me/5553984010438?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+});
